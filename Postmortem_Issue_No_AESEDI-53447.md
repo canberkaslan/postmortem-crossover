@@ -10,39 +10,41 @@ Resolved
 ## Summary
 Missing records due to customer data not sent from AES EDI.
 
-##Impact
+## Impact
 486,000 records were affected.
 
-##Root Causes
+## Root Causes
 Issue with the AES CIS service (Jira Issue No: AESCIS-38263)
 
-##Trigger
+## Trigger
 Customer data being sent.
 
 ##Resolution
 Resend file.
 
-##Detection
+## Detection
 A Jira issue (AESEDI-53447) was logged that the customer data was not sent from AES EDI.
 
-##Action Item
+## Action Item
 Improve monitoring so that it detects issues with AES CIS
 
-##Action Item	Type	Owner	Bug
+## Action Item
+
+Improve monitoring so that it detects issues with AES CIS
 
 | Action Item	| Type	| Owner	| Bug |
 | --- | --- | --- | --- |
 | Update playbook with instructions for responding to AES CIS failure | mitigate | ASLAN |	n/a DONE |
 |Improve monitoring so that it detects issues with AES CIS | prevent | ASLAN |	n/a DONE |
 
-##Lessons Learned
+## Lessons Learned
 
-###What went well
+### What went well
 File was resent and the issue got resolved.
-###What went wrong
+### What went wrong
 Issue affected monitoring service and therefore missing records were not discovered automatically.
 
-##Timeline
+## Timeline
 2019-3-26 (all times UTC+3)
 
 |Time	| Description|
