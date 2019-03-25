@@ -19,7 +19,7 @@ Issue with the AES CIS service (Jira Issue No: AESCIS-38263)
 ## Trigger
 Customer data being sent.
 
-##Resolution
+## Resolution
 Resend file.
 
 ## Detection
