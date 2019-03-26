@@ -26,9 +26,6 @@ Resend file.
 A Jira issue (AESEDI-53447) was logged that the customer data was not sent from AES EDI.
 
 ## Action Item
-Improve monitoring so that it detects issues with AES CIS
-
-## Action Item
 
 Improve monitoring so that it detects issues with AES CIS
 
